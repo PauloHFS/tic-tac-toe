@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Game",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\\\tic_tac_toe\\\\__init__.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Run Server",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}\\\\server\\\\__init__.py",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    }
+  ]
+}

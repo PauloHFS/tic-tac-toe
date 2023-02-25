@@ -62,7 +62,7 @@ async def message_handler(websocket):
             await websocket.send(json.dumps({
                 'type': 'game_state',
                 'game_id': message["game_id"],
-                'game_state': active_games[message["game_id"]]
+                'game_state': active_games[message["game_id"]].__dict__
             }))
         elif message['type'] == 'do_turn':
             game = active_games[message['game_id']]
